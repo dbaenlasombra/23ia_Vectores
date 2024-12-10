@@ -1,0 +1,7 @@
+Create table t_Muestreo_Imagenes
+  (
+      id number not null,
+      nombre_muestra varchar2(200),
+      desc_muestra varchar2(500),
+      vector_muestra vector
+  )
